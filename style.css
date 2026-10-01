@@ -1,0 +1,253 @@
+/* Styles for the Seasonal Passphrase Generator */
+
+/* ---------- Seasonal color palettes ---------- */
+
+body[data-season="spring"] {
+  --bg: #cdebd4;          /* fresh light green */
+  --bg-accent: #f6d3e2;   /* pastel pink */
+  --card: #ffffff;
+  --text: #24452f;
+  --primary: #2e7d4f;     /* leafy green */
+  --primary-hover: #246640;
+  --highlight: #f3eafc;   /* pastel lavender */
+}
+
+body[data-season="summer"] {
+  --bg: #ffe27a;          /* sunny warm yellow */
+  --bg-accent: #ffb38a;   /* sunset coral */
+  --card: #fffbea;
+  --text: #13294b;
+  --primary: #1b3a6b;     /* dark blue */
+  --primary-hover: #12294d;
+  --highlight: #fff1b8;
+}
+
+body[data-season="autumn"] {
+  --bg: #f4a259;          /* pumpkin orange */
+  --bg-accent: #b5533c;   /* rusty red */
+  --card: #fff6ec;
+  --text: #3e2412;
+  --primary: #5c3317;     /* deep brown */
+  --primary-hover: #452510;
+  --highlight: #fde3c8;
+}
+
+body[data-season="winter"] {
+  --bg: #dcefff;          /* icy blue */
+  --bg-accent: #d8d3f0;   /* frosty lavender */
+  --card: #f8fbff;
+  --text: #2c3a47;
+  --primary: #4a5a6a;     /* slate grey */
+  --primary-hover: #36424e;
+  --highlight: #e6f2fc;
+}
+
+/* ---------- Layout and typography ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: linear-gradient(135deg, var(--bg), var(--bg-accent));
+  transition: color 0.4s ease;
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  padding: 2.5rem 2rem;
+  background: var(--card);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  transition: background 0.4s ease;
+}
+
+h1 {
+  margin: 0 0 1.75rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Controls ---------- */
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-weight: 600;
+}
+
+select,
+button {
+  font: inherit;
+  padding: 0.6rem 1.1rem;
+  border-radius: 12px;
+}
+
+select {
+  border: 2px solid var(--primary);
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: var(--primary);
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: var(--primary-hover);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+select:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+#generate-btn {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.1rem;
+  font-size: 1.05rem;
+}
+
+/* ---------- Settings ---------- */
+
+.settings {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.25rem 1.25rem;
+  border: none;
+  border-radius: 14px;
+  background: var(--highlight);
+  text-align: left;
+  transition: background 0.4s ease;
+}
+
+.settings legend {
+  float: left;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.75;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 0;
+}
+
+/* Start the first row below the floated legend instead of beside it */
+.settings legend + .setting {
+  clear: both;
+}
+
+.setting + .setting {
+  border-top: 1px solid color-mix(in srgb, var(--text) 12%, transparent);
+}
+
+.setting select {
+  min-width: 10rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+}
+
+.range-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+input[type="range"],
+input[type="checkbox"] {
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 8.5rem;
+}
+
+input[type="checkbox"] {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0;
+}
+
+#word-count-value {
+  min-width: 2rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ---------- Passphrase display ---------- */
+
+.result {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 3.5rem;
+  margin-top: 1.75rem;
+  padding: 0.75rem 0.75rem 0.75rem 1rem;
+  background: var(--highlight);
+  border-radius: 14px;
+  transition: background 0.4s ease;
+}
+
+.result[hidden] {
+  display: none;
+}
+
+.passphrase {
+  flex: 1;
+  margin: 0;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 1.15rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.copy-btn {
+  flex-shrink: 0;
+  min-width: 6rem;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
+}

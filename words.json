@@ -1,0 +1,26 @@
+{
+  "spring": {
+    "flora": ["tulip", "daisy", "lilac", "clover", "iris", "violet", "magnolia", "peony", "daffodil", "crocus", "fern", "willow", "hyacinth", "bluebell", "primrose", "camellia", "wisteria", "freesia", "honeysuckle", "dandelion"],
+    "bloom": ["blossom", "petal", "pollen", "nectar", "bud", "bouquet", "garden", "meadow", "orchard", "bee", "butterfly", "hummingbird", "ladybug", "dragonfly", "trellis", "arbor", "fragrance", "unfurl", "pastel", "sunrise"],
+    "rain": ["drizzle", "puddle", "shower", "umbrella", "rainbow", "dewdrop", "cloud", "mist", "splash", "galoshes", "breeze", "thunder", "raincoat", "droplet", "brook", "stream", "pond", "sprinkle", "petrichor", "overcast"],
+    "sprouts": ["seedling", "sprout", "sapling", "shoot", "root", "soil", "acorn", "leaflet", "greenery", "moss", "robin", "lamb", "tadpole", "duckling", "bunny", "fawn", "nest", "eggshell", "renewal", "awaken"]
+  },
+  "summer": {
+    "beach": ["sand", "seashell", "boardwalk", "towel", "sandcastle", "dune", "pier", "flipflops", "sunhat", "cooler", "lifeguard", "kite", "bonfire", "cabana", "hammock", "surfboard", "sunscreen", "sandal", "parasol", "seaside"],
+    "sunshine": ["sunny", "golden", "bright", "daylight", "sunbeam", "radiant", "glow", "solstice", "sunflower", "lemonade", "picnic", "firefly", "dazzle", "shimmer", "horizon", "sunset", "cloudless", "vacation", "roadtrip", "carnival"],
+    "ocean": ["wave", "tide", "surf", "coral", "dolphin", "seagull", "reef", "lagoon", "starfish", "sailboat", "current", "harbor", "seahorse", "jellyfish", "pelican", "snorkel", "anchor", "lighthouse", "mariner", "breaker"],
+    "heat": ["blazing", "scorching", "humid", "sizzle", "warmth", "tropical", "mango", "popsicle", "watermelon", "barbecue", "campfire", "heatwave", "pineapple", "coconut", "sorbet", "smoothie", "sweltering", "mirage", "cicada", "hibiscus"]
+  },
+  "autumn": {
+    "spooky": ["ghost", "goblin", "cobweb", "lantern", "raven", "phantom", "witch", "potion", "cauldron", "skeleton", "haunted", "moonlit", "specter", "gargoyle", "bat", "broomstick", "eerie", "shadow", "crypt", "howl"],
+    "harvest": ["harvest", "orchard", "haystack", "cornfield", "barn", "bushel", "apple", "squash", "gourd", "wheat", "scarecrow", "cider", "cornucopia", "granary", "pitchfork", "wagon", "farmstead", "bounty", "thresher", "cranberry"],
+    "crisp": ["crisp", "breezy", "chilly", "maple", "acorn", "foliage", "rustle", "amber", "crimson", "russet", "sweater", "flannel", "oak", "chestnut", "twilight", "bonfire", "woodsmoke", "copper", "ochre", "windswept"],
+    "pumpkin": ["pumpkin", "pie", "cinnamon", "nutmeg", "spice", "latte", "patch", "jackolantern", "pecan", "caramel", "candle", "hayride", "clove", "ginger", "molasses", "butternut", "toffee", "cobbler", "marshmallow", "hearty"]
+  },
+  "winter": {
+    "hearth": ["hearth", "fireplace", "ember", "kindling", "chimney", "mantle", "firewood", "lantern", "candlelight", "cocoa", "kettle", "chestnut", "crackle", "woodstove", "bellows", "flicker", "spark", "tinder", "inglenook", "glowing"],
+    "snow": ["snowflake", "snowman", "blizzard", "sled", "snowdrift", "flurry", "avalanche", "snowball", "igloo", "powder", "mitten", "toboggan", "snowshoe", "snowfall", "ski", "slalom", "chairlift", "whiteout", "snowplow", "skate"],
+    "frost": ["frost", "icicle", "glacier", "frozen", "arctic", "tundra", "sleet", "rime", "crystal", "polar", "penguin", "evergreen", "iceberg", "frigid", "aurora", "hoarfrost", "glisten", "solstice", "reindeer", "walrus"],
+    "cozy": ["cozy", "blanket", "quilt", "slippers", "scarf", "beanie", "cabin", "snuggle", "pajamas", "fleece", "teapot", "gingerbread", "earmuffs", "cardigan", "mug", "eggnog", "peppermint", "storybook", "lullaby", "hibernate"]
+  }
+}

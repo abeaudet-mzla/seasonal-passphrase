@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seasonal Passphrase Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-season="spring">
+  <main class="card">
+    <h1>Seasonal Passphrase Generator</h1>
+
+    <div class="controls">
+      <label for="season">Season:</label>
+      <select id="season">
+        <option value="spring">Spring</option>
+        <option value="summer">Summer</option>
+        <option value="winter">Winter</option>
+        <option value="autumn">Autumn</option>
+      </select>
+    </div>
+
+    <fieldset class="settings">
+      <legend>Settings</legend>
+
+      <div class="setting">
+        <label for="word-count">Word count</label>
+        <div class="range-group">
+          <input type="range" id="word-count" min="3" max="8" value="4">
+          <output id="word-count-value" for="word-count">4</output>
+        </div>
+      </div>
+
+      <div class="setting">
+        <label for="separator">Separator</label>
+        <select id="separator">
+          <option value="-" selected>Hyphen ( - )</option>
+          <option value="_">Underscore ( _ )</option>
+          <option value=" ">Space</option>
+          <option value=".">Period ( . )</option>
+          <option value="">None</option>
+        </select>
+      </div>
+
+      <div class="setting">
+        <label for="capitalize">Capitalize words</label>
+        <input type="checkbox" id="capitalize">
+      </div>
+    </fieldset>
+
+    <button id="generate-btn" type="button">Generate</button>
+
+    <div id="result" class="result" hidden>
+      <p id="passphrase" class="passphrase"></p>
+      <button id="copy-btn" class="copy-btn" type="button" hidden>Copy</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
