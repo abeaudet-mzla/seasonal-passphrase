@@ -1,4 +1,4 @@
-// Logic for the Seasonal Passphrase Generator
+// Logic for the Thematic Passphrase Generator
 
 // How long the copy button shows its "Copied!" feedback
 const COPY_FEEDBACK_MS = 2000;
@@ -23,7 +23,7 @@ function showMessage(message) {
   resultBox.hidden = false;
 }
 
-// Load the seasonal word lists
+// Load the season and theme word lists
 fetch("words.json")
   .then((response) => response.json())
   .then((data) => {
@@ -82,7 +82,7 @@ copyBtn.addEventListener("click", () => {
   navigator.clipboard
     .writeText(output.textContent)
     .then(() => {
-      copyBtn.textContent = "✓ Copied!";
+      copyBtn.textContent = "Copied! ✓";
     })
     .catch(() => {
       copyBtn.textContent = "Copy failed";

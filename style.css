@@ -1,4 +1,4 @@
-/* Styles for the Seasonal Passphrase Generator */
+/* Styles for the Thematic Passphrase Generator */
 
 /* ---------- Seasonal color palettes ---------- */
 
@@ -42,6 +42,144 @@ body[data-season="winter"] {
   --highlight: #e6f2fc;
 }
 
+/* ---------- Themed color palettes ---------- */
+
+body[data-season="vaporwave"] {
+  --bg: #ff71ce;          /* hot pink */
+  --bg-accent: #01cdfe;   /* electric cyan */
+  --card: #fdf0ff;
+  --text: #3b1a5a;
+  --primary: #8a2be2;     /* synth violet */
+  --primary-hover: #6f1fbf;
+  --highlight: #e8f8ff;
+}
+
+body[data-season="fantasy-tavern"] {
+  --bg: #6b3e1f;          /* oak beams */
+  --bg-accent: #2f1b0e;   /* smoky hearth */
+  --card: #f5e6c8;        /* parchment */
+  --text: #3a2410;
+  --primary: #8b2e16;     /* mulled wine red */
+  --primary-hover: #6e2310;
+  --highlight: #ead2a4;
+}
+
+body[data-season="sci-fi-space"] {
+  --bg: #0b1026;          /* deep space */
+  --bg-accent: #3a1c71;   /* nebula purple */
+  --card: #141a33;
+  --text: #e3e8ff;
+  --primary: #3b5bdb;     /* ion blue */
+  --primary-hover: #2f4ac0;
+  --highlight: #1f2748;
+  color-scheme: dark;
+}
+
+body[data-season="rainy-bookstore"] {
+  --bg: #7d8a96;          /* rain-streaked window */
+  --bg-accent: #4a5560;   /* storm cloud */
+  --card: #f4efe6;        /* aged paper */
+  --text: #3b2f2a;
+  --primary: #6b4a3a;     /* leather binding */
+  --primary-hover: #54392c;
+  --highlight: #e7ddcc;
+}
+
+body[data-season="pirate-ship"] {
+  --bg: #0e3b5c;          /* open sea navy */
+  --bg-accent: #1f6f78;   /* shallow teal */
+  --card: #f3e9d2;        /* sailcloth */
+  --text: #2a1d10;
+  --primary: #8c2a1c;     /* bandana red */
+  --primary-hover: #6e2015;
+  --highlight: #e6d6b0;
+}
+
+body[data-season="cyberpunk"] {
+  --bg: #ff2a6d;          /* neon magenta */
+  --bg-accent: #00f0ff;   /* electric cyan */
+  --card: #fcee0a;        /* hazard yellow */
+  --text: #000000;
+  --primary: #ff2a6d;     /* neon magenta */
+  --primary-hover: #00f0ff;
+  --on-primary: #000000;
+  --highlight: #9ff7ff;   /* pale cyan */
+}
+
+body[data-season="victorian-mystery"] {
+  --bg: #3b2f2f;          /* gaslit fog */
+  --bg-accent: #8c6d3f;   /* tarnished brass */
+  --card: #f2ebdd;
+  --text: #2b2420;
+  --primary: #5a2a27;     /* oxblood */
+  --primary-hover: #45201e;
+  --highlight: #e5dac3;
+}
+
+body[data-season="coffee-tea-shop"] {
+  --bg: #c8a27a;          /* latte */
+  --bg-accent: #7a9a65;   /* matcha */
+  --card: #fffaf3;
+  --text: #3b2a20;
+  --primary: #6f4e37;     /* espresso brown */
+  --primary-hover: #573c2a;
+  --highlight: #f1e4d3;
+}
+
+body[data-season="amalfi-coast"] {
+  --bg: #ffffff;          /* whitewashed walls */
+  --bg-accent: #0b3d91;   /* Mediterranean dome blue */
+  --card: #ffffff;
+  --text: #0b2e59;        /* deep sea blue */
+  --primary: #ff9f1c;     /* vibrant orange */
+  --primary-hover: #ffd60a; /* lemon yellow */
+  --on-primary: #0b2e59;
+  --highlight: #fff5cc;   /* lemon tint */
+  --focus: #0b3d91;       /* dome blue keyboard focus ring */
+}
+
+body[data-season="lemonade-stand"] {
+  --bg: #ffeb3b;          /* bright lemon */
+  --bg-accent: #a7d8ff;   /* baby blue */
+  --card: #ffffff;
+  --text: #1f3a5f;
+  --primary: #2f6db5;     /* sky blue */
+  --primary-hover: #245791;
+  --highlight: #e3f2ff;   /* soft baby blue */
+}
+
+body[data-season="matrix"] {
+  --bg: #000000;          /* black screen */
+  --bg-accent: #003b00;   /* phosphor glow */
+  --card: #0a140a;
+  --text: #00ff41;        /* code rain green */
+  --primary: #00c832;
+  --primary-hover: #00ff41;
+  --on-primary: #000000;
+  --highlight: #0f2a12;
+  color-scheme: dark;
+}
+
+body[data-season="cowboy-fengs"] {
+  --bg: #2b1055;          /* starlit desert sky */
+  --bg-accent: #d4572a;   /* grill flame */
+  --card: #fff4e0;
+  --text: #2b1a12;
+  --primary: #b8461f;     /* rusty copper */
+  --primary-hover: #96381a;
+  --highlight: #fde2c4;
+}
+
+body[data-season="aviary"] {
+  --bg: #9fd3e6;          /* open sky */
+  --bg-accent: #f2c57c;   /* golden plumage */
+  --card: #fbfdf8;
+  --text: #24413a;
+  --primary: #2b7a78;     /* peacock teal */
+  --primary-hover: #1f5f5d;
+  --highlight: #e6f4ec;
+}
+
 /* ---------- Layout and typography ---------- */
 
 * {
@@ -49,6 +187,7 @@ body[data-season="winter"] {
 }
 
 body {
+  --on-primary: #ffffff;   /* text on primary-colored buttons */
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -111,7 +250,7 @@ select {
 button {
   border: none;
   background: var(--primary);
-  color: #ffffff;
+  color: var(--on-primary);
   font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.1s ease;
@@ -128,7 +267,7 @@ button:active {
 select:focus-visible,
 button:focus-visible,
 input:focus-visible {
-  outline: 3px solid var(--primary);
+  outline: 3px solid var(--focus, var(--primary));
   outline-offset: 2px;
 }
 
@@ -213,7 +352,7 @@ input[type="checkbox"] {
   padding: 0.15rem 0.5rem;
   border-radius: 8px;
   background: var(--primary);
-  color: #ffffff;
+  color: var(--on-primary);
   font-weight: 700;
   text-align: center;
 }

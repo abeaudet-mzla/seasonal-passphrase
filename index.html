@@ -3,20 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seasonal Passphrase Generator</title>
+  <title>Thematic Passphrase Generator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body data-season="spring">
   <main class="card">
-    <h1>Seasonal Passphrase Generator</h1>
+    <h1>Thematic Passphrase Generator</h1>
 
     <div class="controls">
-      <label for="season">Season:</label>
+      <label for="season">Theme:</label>
       <select id="season">
-        <option value="spring">Spring</option>
-        <option value="summer">Summer</option>
-        <option value="winter">Winter</option>
-        <option value="autumn">Autumn</option>
+        <optgroup label="Seasons">
+          <option value="spring">Spring</option>
+          <option value="summer">Summer</option>
+          <option value="winter">Winter</option>
+          <option value="autumn">Autumn</option>
+        </optgroup>
+        <optgroup label="Themes">
+          <option value="vaporwave">Vaporwave</option>
+          <option value="fantasy-tavern">Fantasy Tavern</option>
+          <option value="sci-fi-space">Sci-Fi / Space</option>
+          <option value="rainy-bookstore">Rainy Bookstore</option>
+          <option value="pirate-ship">Pirate Ship</option>
+          <option value="cyberpunk">Cyberpunk</option>
+          <option value="victorian-mystery">Victorian Mystery</option>
+          <option value="coffee-tea-shop">Coffee &amp; Tea Shop</option>
+          <option value="amalfi-coast">Amalfi Coast</option>
+          <option value="lemonade-stand">Lemonade Stand</option>
+          <option value="matrix">Matrix</option>
+          <option value="cowboy-fengs">Cowboy Feng's Space Bar and Grille</option>
+          <option value="aviary">Aviary</option>
+        </optgroup>
       </select>
     </div>
 

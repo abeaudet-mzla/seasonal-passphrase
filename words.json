@@ -22,5 +22,68 @@
     "snow": ["snowflake", "snowman", "blizzard", "sled", "snowdrift", "flurry", "avalanche", "snowball", "igloo", "powder", "mitten", "toboggan", "snowshoe", "snowfall", "ski", "slalom", "chairlift", "whiteout", "snowplow", "skate"],
     "frost": ["frost", "icicle", "glacier", "frozen", "arctic", "tundra", "sleet", "rime", "crystal", "polar", "penguin", "evergreen", "iceberg", "frigid", "aurora", "hoarfrost", "glisten", "solstice", "reindeer", "walrus"],
     "cozy": ["cozy", "blanket", "quilt", "slippers", "scarf", "beanie", "cabin", "snuggle", "pajamas", "fleece", "teapot", "gingerbread", "earmuffs", "cardigan", "mug", "eggnog", "peppermint", "storybook", "lullaby", "hibernate"]
+  },
+  "vaporwave": {
+    "aesthetic": ["neon", "pastel", "marble", "statue", "palm", "sunset", "grid", "chrome", "prism", "glitch", "pixel", "static", "haze", "dream", "lagoon", "mirage", "dolphin", "plaza", "mall", "fountain", "velvet", "glow"],
+    "retro": ["cassette", "walkman", "arcade", "synth", "disco", "vinyl", "laser", "floppy", "modem", "pager", "rewind", "tape", "stereo", "mixtape", "boombox", "joystick", "cartoon", "console", "radio", "sitcom", "cable", "remote", "polaroid"]
+  },
+  "fantasy-tavern": {
+    "tavern": ["tavern", "hearth", "barrel", "tankard", "goblet", "flagon", "lantern", "candle", "bard", "lute", "minstrel", "cellar", "bench", "keg", "coin", "dice"],
+    "fare": ["mead", "ale", "cider", "stew", "bread", "cheese", "roast", "pie", "honey", "mutton", "porridge", "grog", "wine", "apple", "ham", "turnip"],
+    "quest": ["dragon", "wizard", "knight", "elf", "dwarf", "goblin", "quest", "sword", "shield", "scroll", "potion", "castle", "rogue", "ranger", "troll", "amulet"]
+  },
+  "sci-fi-space": {
+    "cosmos": ["comet", "nebula", "galaxy", "quasar", "pulsar", "meteor", "orbit", "planet", "star", "moon", "eclipse", "nova", "cosmos", "aurora", "crater", "asteroid", "solar", "lunar"],
+    "voyage": ["rocket", "shuttle", "capsule", "airlock", "cockpit", "thruster", "booster", "launch", "module", "probe", "rover", "station", "warp", "beacon", "signal", "hangar"],
+    "crew": ["android", "robot", "alien", "pilot", "captain", "cadet", "laser", "plasma", "photon", "ion", "gravity", "vector", "sensor", "radar"]
+  },
+  "rainy-bookstore": {
+    "books": ["novel", "poem", "chapter", "page", "spine", "shelf", "atlas", "fable", "sonnet", "verse", "story", "margin", "bookmark", "library", "author", "prose", "quill", "inkwell", "journal", "folio"],
+    "rain": ["rain", "drizzle", "puddle", "umbrella", "window", "misty", "cloudy", "thunder", "droplet", "raincoat", "storm", "damp"],
+    "cozy": ["blanket", "sweater", "armchair", "teacup", "candle", "cocoa", "cushion", "lamp", "cat", "slipper", "nook", "quiet", "attic", "fireside"]
+  },
+  "pirate-ship": {
+    "ship": ["anchor", "mast", "sail", "rudder", "helm", "deck", "hull", "cannon", "plank", "rigging", "galleon", "sloop", "compass", "spyglass", "lantern", "rope"],
+    "sea": ["ocean", "tide", "wave", "reef", "island", "lagoon", "cove", "port", "gull", "kraken", "shark", "squall", "tempest", "sandbar"],
+    "lore": ["pirate", "captain", "parrot", "treasure", "doubloon", "map", "chest", "cutlass", "bandana", "eyepatch", "mutiny", "plunder", "bounty", "rum", "jolly", "skull"]
+  },
+  "cyberpunk": {
+    "neon": ["neon", "chrome", "laser", "hologram", "visor", "pulse", "flicker", "voltage", "glare", "smog", "alley", "rooftop", "skyline", "arcade", "noodle", "megacity"],
+    "tech": ["implant", "cyborg", "android", "drone", "chip", "neural", "optic", "bionic", "augment", "servo", "reactor", "plasma", "nanite", "uplink"],
+    "street": ["hacker", "runner", "rebel", "outlaw", "ronin", "fixer", "glitch", "exploit", "cipher", "darknet", "firewall", "bounty", "contract"]
+  },
+  "victorian-mystery": {
+    "detective": ["sleuth", "clue", "alibi", "suspect", "motive", "culprit", "witness", "riddle", "cipher", "puzzle", "verdict", "lens", "footstep", "ledger", "dossier", "inquest"],
+    "victorian": ["gaslight", "corset", "bonnet", "carriage", "bowler", "monocle", "cravat", "cane", "fog", "cobble", "manor", "butler", "lantern", "telegram"],
+    "steampunk": ["brass", "copper", "gear", "cog", "piston", "boiler", "steam", "valve", "gauge", "rivet", "airship", "goggles", "sprocket", "dynamo", "lever", "pocketwatch"]
+  },
+  "coffee-tea-shop": {
+    "coffee": ["espresso", "latte", "mocha", "cortado", "roast", "bean", "brew", "grinder", "crema", "drip", "decaf", "barista", "kettle", "pour", "foam", "filter"],
+    "tea": ["chai", "matcha", "oolong", "jasmine", "herbal", "steep", "teapot", "teacup", "saucer", "leaf", "mint", "honey", "sugar", "cream"],
+    "pastry": ["croissant", "muffin", "scone", "biscotti", "danish", "cookie", "bagel", "brownie", "donut", "cinnamon", "waffle", "tart", "crumb", "toast"]
+  },
+  "amalfi-coast": {
+    "citrus": ["lemon", "lime", "orange", "citron", "zest", "grove", "peel", "sorbet", "gelato", "basil", "olive", "tomato", "fig"],
+    "coast": ["cliff", "cove", "marina", "beach", "villa", "terrace", "pebble", "azure", "lagoon", "grotto", "yacht", "ferry", "sailboat", "seaside", "breeze", "sunny"],
+    "italian": ["piazza", "vespa", "pasta", "pizza", "risotto", "ciao", "bella", "dolce", "amore", "nonna", "vino", "mosaic", "ceramic", "opera", "linen"]
+  },
+  "lemonade-stand": {
+    "stand": ["lemon", "juice", "cup", "ice", "sip", "sour", "sweet", "cold", "jug", "sign", "cash", "coin", "penny", "dime", "sale", "table", "straw"],
+    "yard": ["sun", "shade", "yard", "tree", "grass", "kite", "swing", "park", "pool", "bike", "ball", "dog", "cat", "bird", "bee"],
+    "fun": ["fun", "play", "smile", "happy", "nap", "cake", "pie", "jam", "toy", "red", "blue", "pink", "green", "gold", "hat"]
+  },
+  "matrix": {
+    "code": ["code", "binary", "script", "syntax", "loop", "array", "string", "byte", "kernel", "compile", "debug", "cache", "buffer", "packet", "query", "token"],
+    "cyber": ["cyber", "virtual", "digital", "server", "router", "network", "socket", "proxy", "pixel", "signal", "terminal", "cursor", "monitor", "laptop", "keyboard"],
+    "simulation": ["matrix", "oracle", "agent", "glitch", "rabbit", "mirror", "pill", "phone", "zion", "sentinel", "illusion", "chosen", "anomaly", "construct"]
+  },
+  "cowboy-fengs": {
+    "space": ["rocket", "comet", "nebula", "orbit", "galaxy", "meteor", "alien", "lunar", "starship", "cosmic", "warp", "quasar"],
+    "grille": ["grill", "burger", "brisket", "taco", "nacho", "ribs", "chili", "fries", "skillet", "griddle", "pancake", "biscuit", "gravy", "bacon", "pickle", "sizzle"],
+    "bar": ["saloon", "bourbon", "cocktail", "soda", "shaker", "jukebox", "booth", "neon", "rodeo", "cowboy", "lasso", "spur", "stetson", "howdy", "cactus", "tonic"]
+  },
+  "aviary": {
+    "birds": ["robin", "sparrow", "finch", "wren", "owl", "hawk", "eagle", "falcon", "heron", "crane", "parrot", "toucan", "pelican", "puffin", "raven", "magpie", "swallow", "canary", "osprey", "kestrel", "pigeon", "dove", "egret", "condor", "cardinal", "oriole", "flamingo"],
+    "flight": ["feather", "wing", "plume", "beak", "talon", "nest", "perch", "glide", "soar", "flutter", "hover", "swoop", "migrate", "flock", "roost", "song", "chirp", "warble", "egg"]
   }
 }
