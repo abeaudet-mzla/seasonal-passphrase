@@ -24,66 +24,66 @@
     "cozy": ["cozy", "blanket", "quilt", "slippers", "scarf", "beanie", "cabin", "snuggle", "pajamas", "fleece", "teapot", "gingerbread", "earmuffs", "cardigan", "mug", "eggnog", "peppermint", "storybook", "lullaby", "hibernate"]
   },
   "vaporwave": {
-    "aesthetic": ["neon", "pastel", "marble", "statue", "palm", "sunset", "grid", "chrome", "prism", "glitch", "pixel", "static", "haze", "dream", "lagoon", "mirage", "dolphin", "plaza", "mall", "fountain", "velvet", "glow"],
-    "retro": ["cassette", "walkman", "arcade", "synth", "disco", "vinyl", "laser", "floppy", "modem", "pager", "rewind", "tape", "stereo", "mixtape", "boombox", "joystick", "cartoon", "console", "radio", "sitcom", "cable", "remote", "polaroid"]
+    "aesthetic": ["neon", "pastel", "marble", "statue", "palm", "sunset", "grid", "chrome", "prism", "glitch", "pixel", "static", "haze", "dream", "lagoon", "mirage", "dolphin", "plaza", "mall", "fountain", "velvet", "glow", "lilac", "mauve", "teal", "magenta", "twilight", "orchid", "flamingo", "skyline", "horizon", "cloud", "pool", "tile", "atrium", "column", "pillar", "shimmer", "reverie", "mellow", "lounge", "ether"],
+    "retro": ["cassette", "walkman", "arcade", "synth", "disco", "vinyl", "laser", "floppy", "modem", "pager", "rewind", "tape", "stereo", "mixtape", "boombox", "joystick", "cartoon", "console", "radio", "sitcom", "cable", "remote", "polaroid", "dialup", "jukebox", "pinball", "keytar", "headset", "diskette", "beeper", "hotline", "lavalamp", "skate", "fax", "sticker", "glitter", "antenna", "channel", "rerun"]
   },
   "fantasy-tavern": {
-    "tavern": ["tavern", "hearth", "barrel", "tankard", "goblet", "flagon", "lantern", "candle", "bard", "lute", "minstrel", "cellar", "bench", "keg", "coin", "dice"],
-    "fare": ["mead", "ale", "cider", "stew", "bread", "cheese", "roast", "pie", "honey", "mutton", "porridge", "grog", "wine", "apple", "ham", "turnip"],
-    "quest": ["dragon", "wizard", "knight", "elf", "dwarf", "goblin", "quest", "sword", "shield", "scroll", "potion", "castle", "rogue", "ranger", "troll", "amulet"]
+    "tavern": ["tavern", "hearth", "barrel", "tankard", "goblet", "flagon", "lantern", "candle", "bard", "lute", "minstrel", "cellar", "bench", "keg", "coin", "dice", "rafter", "chimney", "ember", "stool", "cask", "pewter", "ladle", "cauldron", "ballad", "jester", "fiddle"],
+    "fare": ["mead", "ale", "cider", "stew", "bread", "cheese", "roast", "pie", "honey", "mutton", "porridge", "grog", "wine", "apple", "ham", "turnip", "venison", "pheasant", "sausage", "onion", "leek", "barley", "broth", "pudding", "plum", "pear", "walnut"],
+    "quest": ["dragon", "wizard", "knight", "elf", "dwarf", "goblin", "quest", "sword", "shield", "scroll", "potion", "castle", "rogue", "ranger", "troll", "amulet", "paladin", "spell", "rune", "griffin", "unicorn", "ogre", "crown", "throne", "dungeon", "relic", "mage"]
   },
   "sci-fi-space": {
-    "cosmos": ["comet", "nebula", "galaxy", "quasar", "pulsar", "meteor", "orbit", "planet", "star", "moon", "eclipse", "nova", "cosmos", "aurora", "crater", "asteroid", "solar", "lunar"],
-    "voyage": ["rocket", "shuttle", "capsule", "airlock", "cockpit", "thruster", "booster", "launch", "module", "probe", "rover", "station", "warp", "beacon", "signal", "hangar"],
-    "crew": ["android", "robot", "alien", "pilot", "captain", "cadet", "laser", "plasma", "photon", "ion", "gravity", "vector", "sensor", "radar"]
+    "cosmos": ["comet", "nebula", "galaxy", "quasar", "pulsar", "meteor", "orbit", "planet", "star", "moon", "eclipse", "nova", "cosmos", "aurora", "crater", "asteroid", "solar", "lunar", "stardust", "cluster", "zenith", "vortex", "void", "saturn", "jupiter", "mars", "venus", "starlight", "sunspot"],
+    "voyage": ["rocket", "shuttle", "capsule", "airlock", "cockpit", "thruster", "booster", "launch", "module", "probe", "rover", "station", "warp", "beacon", "signal", "hangar", "orbiter", "lander", "payload", "docking", "gantry", "helmet", "tether", "hatch", "fuel", "liftoff", "voyage"],
+    "crew": ["android", "robot", "alien", "pilot", "captain", "cadet", "laser", "plasma", "photon", "ion", "gravity", "vector", "sensor", "radar", "cyborg", "ensign", "admiral", "engineer", "medic", "scanner", "quantum", "neutron", "proton", "fusion", "reactor"]
   },
   "rainy-bookstore": {
-    "books": ["novel", "poem", "chapter", "page", "spine", "shelf", "atlas", "fable", "sonnet", "verse", "story", "margin", "bookmark", "library", "author", "prose", "quill", "inkwell", "journal", "folio"],
-    "rain": ["rain", "drizzle", "puddle", "umbrella", "window", "misty", "cloudy", "thunder", "droplet", "raincoat", "storm", "damp"],
-    "cozy": ["blanket", "sweater", "armchair", "teacup", "candle", "cocoa", "cushion", "lamp", "cat", "slipper", "nook", "quiet", "attic", "fireside"]
+    "books": ["novel", "poem", "chapter", "page", "spine", "shelf", "atlas", "fable", "sonnet", "verse", "story", "margin", "bookmark", "library", "author", "prose", "quill", "inkwell", "journal", "folio", "preface", "epilogue", "sequel", "memoir", "mystery", "legend", "poet", "reader", "binding", "archive", "footnote", "stanza"],
+    "rain": ["rain", "drizzle", "puddle", "umbrella", "window", "misty", "cloudy", "thunder", "droplet", "raincoat", "storm", "damp", "downpour", "gutter", "rumble", "foggy", "soggy", "mist", "shower", "splash", "ripple", "gloomy", "dreary"],
+    "cozy": ["blanket", "sweater", "armchair", "teacup", "candle", "cocoa", "cushion", "lamp", "cat", "slipper", "nook", "quiet", "attic", "fireside", "scarf", "socks", "kettle", "biscuit", "hush", "snug", "warmth", "glasses", "ladder", "dusty", "wool"]
   },
   "pirate-ship": {
-    "ship": ["anchor", "mast", "sail", "rudder", "helm", "deck", "hull", "cannon", "plank", "rigging", "galleon", "sloop", "compass", "spyglass", "lantern", "rope"],
-    "sea": ["ocean", "tide", "wave", "reef", "island", "lagoon", "cove", "port", "gull", "kraken", "shark", "squall", "tempest", "sandbar"],
-    "lore": ["pirate", "captain", "parrot", "treasure", "doubloon", "map", "chest", "cutlass", "bandana", "eyepatch", "mutiny", "plunder", "bounty", "rum", "jolly", "skull"]
+    "ship": ["anchor", "mast", "sail", "rudder", "helm", "deck", "hull", "cannon", "plank", "rigging", "galleon", "sloop", "compass", "spyglass", "lantern", "rope", "keel", "stern", "bowsprit", "hammock", "barrel", "galley", "brig", "cabin", "porthole", "oar", "knot", "flag"],
+    "sea": ["ocean", "tide", "wave", "reef", "island", "lagoon", "cove", "port", "gull", "kraken", "shark", "squall", "tempest", "sandbar", "current", "voyage", "seaweed", "whale", "coral", "horizon", "shoal", "gale", "foam", "mermaid", "shipwreck"],
+    "lore": ["pirate", "captain", "parrot", "treasure", "doubloon", "map", "chest", "cutlass", "bandana", "eyepatch", "mutiny", "plunder", "bounty", "rum", "jolly", "skull", "corsair", "matey", "ahoy", "hook", "gold", "jewel", "ransom", "brigand", "loot", "pistol", "galore"]
   },
   "cyberpunk": {
-    "neon": ["neon", "chrome", "laser", "hologram", "visor", "pulse", "flicker", "voltage", "glare", "smog", "alley", "rooftop", "skyline", "arcade", "noodle", "megacity"],
-    "tech": ["implant", "cyborg", "android", "drone", "chip", "neural", "optic", "bionic", "augment", "servo", "reactor", "plasma", "nanite", "uplink"],
-    "street": ["hacker", "runner", "rebel", "outlaw", "ronin", "fixer", "glitch", "exploit", "cipher", "darknet", "firewall", "bounty", "contract"]
+    "neon": ["neon", "chrome", "laser", "hologram", "visor", "pulse", "flicker", "voltage", "glare", "smog", "alley", "rooftop", "skyline", "arcade", "noodle", "megacity", "sprawl", "tower", "monorail", "haze", "acid", "static", "overpass", "subway", "market", "rain", "graffiti"],
+    "tech": ["implant", "cyborg", "android", "drone", "chip", "neural", "optic", "bionic", "augment", "servo", "reactor", "plasma", "nanite", "uplink", "wetware", "synapse", "cortex", "circuit", "codec", "scanner", "battery", "signal", "socket", "quantum", "hardware"],
+    "street": ["hacker", "runner", "rebel", "outlaw", "ronin", "fixer", "glitch", "exploit", "cipher", "darknet", "firewall", "bounty", "contract", "gang", "heist", "broker", "ghost", "shadow", "blade", "katana", "jacket", "punk", "riot", "nomad", "smuggler", "rogue"]
   },
   "victorian-mystery": {
-    "detective": ["sleuth", "clue", "alibi", "suspect", "motive", "culprit", "witness", "riddle", "cipher", "puzzle", "verdict", "lens", "footstep", "ledger", "dossier", "inquest"],
-    "victorian": ["gaslight", "corset", "bonnet", "carriage", "bowler", "monocle", "cravat", "cane", "fog", "cobble", "manor", "butler", "lantern", "telegram"],
-    "steampunk": ["brass", "copper", "gear", "cog", "piston", "boiler", "steam", "valve", "gauge", "rivet", "airship", "goggles", "sprocket", "dynamo", "lever", "pocketwatch"]
+    "detective": ["sleuth", "clue", "alibi", "suspect", "motive", "culprit", "witness", "riddle", "cipher", "puzzle", "verdict", "lens", "footstep", "ledger", "dossier", "inquest", "poison", "dagger", "secret", "shadow", "scheme", "deduce", "evidence", "confess", "case", "mystery", "hunch", "lockpick"],
+    "victorian": ["gaslight", "corset", "bonnet", "carriage", "bowler", "monocle", "cravat", "cane", "fog", "cobble", "manor", "butler", "lantern", "telegram", "parasol", "waltz", "ballroom", "mansion", "estate", "letter", "seal", "velvet", "lace", "opera", "chapel"],
+    "steampunk": ["brass", "copper", "gear", "cog", "piston", "boiler", "steam", "valve", "gauge", "rivet", "airship", "goggles", "sprocket", "dynamo", "lever", "pocketwatch", "turbine", "crank", "furnace", "coal", "bellows", "wrench", "bolt", "zeppelin", "aether", "tinker", "engine"]
   },
   "coffee-tea-shop": {
-    "coffee": ["espresso", "latte", "mocha", "cortado", "roast", "bean", "brew", "grinder", "crema", "drip", "decaf", "barista", "kettle", "pour", "foam", "filter"],
-    "tea": ["chai", "matcha", "oolong", "jasmine", "herbal", "steep", "teapot", "teacup", "saucer", "leaf", "mint", "honey", "sugar", "cream"],
-    "pastry": ["croissant", "muffin", "scone", "biscotti", "danish", "cookie", "bagel", "brownie", "donut", "cinnamon", "waffle", "tart", "crumb", "toast"]
+    "coffee": ["espresso", "latte", "mocha", "cortado", "roast", "bean", "brew", "grinder", "crema", "drip", "decaf", "barista", "kettle", "pour", "foam", "filter", "arabica", "robusta", "mug", "press", "caramel", "hazelnut", "vanilla", "aroma", "blend", "shot", "affogato", "java"],
+    "tea": ["chai", "matcha", "oolong", "jasmine", "herbal", "steep", "teapot", "teacup", "saucer", "leaf", "mint", "honey", "sugar", "cream", "ginger", "lemon", "rooibos", "sencha", "hibiscus", "infuse", "sachet", "nectar", "lavender", "spice"],
+    "pastry": ["croissant", "muffin", "scone", "biscotti", "danish", "cookie", "bagel", "brownie", "donut", "cinnamon", "waffle", "tart", "crumb", "toast", "pretzel", "strudel", "cupcake", "macaron", "cobbler", "fritter", "crepe", "loaf", "maple", "almond", "pecan", "jam"]
   },
   "amalfi-coast": {
-    "citrus": ["lemon", "lime", "orange", "citron", "zest", "grove", "peel", "sorbet", "gelato", "basil", "olive", "tomato", "fig"],
-    "coast": ["cliff", "cove", "marina", "beach", "villa", "terrace", "pebble", "azure", "lagoon", "grotto", "yacht", "ferry", "sailboat", "seaside", "breeze", "sunny"],
-    "italian": ["piazza", "vespa", "pasta", "pizza", "risotto", "ciao", "bella", "dolce", "amore", "nonna", "vino", "mosaic", "ceramic", "opera", "linen"]
+    "citrus": ["lemon", "lime", "orange", "citron", "zest", "grove", "peel", "sorbet", "gelato", "basil", "olive", "tomato", "fig", "mandarin", "blossom", "orchard", "apricot", "peach", "melon", "grape", "cypress", "rosemary", "oregano", "caper"],
+    "coast": ["cliff", "cove", "marina", "beach", "villa", "terrace", "pebble", "azure", "lagoon", "grotto", "yacht", "ferry", "sailboat", "seaside", "breeze", "sunny", "sunset", "boat", "wave", "shore", "balcony", "pergola", "stairway", "dock", "seagull", "riviera", "anchor", "coastal"],
+    "italian": ["piazza", "vespa", "pasta", "pizza", "risotto", "ciao", "bella", "dolce", "amore", "nonna", "vino", "mosaic", "ceramic", "opera", "linen", "espresso", "cannoli", "tiramisu", "pesto", "gnocchi", "ravioli", "focaccia", "bravo", "festa", "fresco", "ciabatta"]
   },
   "lemonade-stand": {
-    "stand": ["lemon", "juice", "cup", "ice", "sip", "sour", "sweet", "cold", "jug", "sign", "cash", "coin", "penny", "dime", "sale", "table", "straw"],
-    "yard": ["sun", "shade", "yard", "tree", "grass", "kite", "swing", "park", "pool", "bike", "ball", "dog", "cat", "bird", "bee"],
-    "fun": ["fun", "play", "smile", "happy", "nap", "cake", "pie", "jam", "toy", "red", "blue", "pink", "green", "gold", "hat"]
+    "stand": ["lemon", "juice", "cup", "ice", "sip", "sour", "sweet", "cold", "jug", "sign", "cash", "coin", "penny", "dime", "sale", "table", "straw", "lime", "fizz", "drink", "glass", "pour", "mix", "tray", "box", "buy", "sell", "price", "money"],
+    "yard": ["sun", "shade", "yard", "tree", "grass", "kite", "swing", "park", "pool", "bike", "ball", "dog", "cat", "bird", "bee", "sky", "cloud", "sand", "leaf", "rock", "hill", "path", "gate", "fence", "porch", "step", "lawn"],
+    "fun": ["fun", "play", "smile", "happy", "nap", "cake", "pie", "jam", "toy", "red", "blue", "pink", "green", "gold", "hat", "game", "jump", "run", "sing", "wave", "hug", "joy", "cool", "warm", "nice", "best", "glad"]
   },
   "matrix": {
-    "code": ["code", "binary", "script", "syntax", "loop", "array", "string", "byte", "kernel", "compile", "debug", "cache", "buffer", "packet", "query", "token"],
-    "cyber": ["cyber", "virtual", "digital", "server", "router", "network", "socket", "proxy", "pixel", "signal", "terminal", "cursor", "monitor", "laptop", "keyboard"],
-    "simulation": ["matrix", "oracle", "agent", "glitch", "rabbit", "mirror", "pill", "phone", "zion", "sentinel", "illusion", "chosen", "anomaly", "construct"]
+    "code": ["code", "binary", "script", "syntax", "loop", "array", "string", "byte", "kernel", "compile", "debug", "cache", "buffer", "packet", "query", "token", "object", "class", "method", "boolean", "integer", "hash", "stack", "queue", "parse", "render", "deploy", "commit"],
+    "cyber": ["cyber", "virtual", "digital", "server", "router", "network", "socket", "proxy", "pixel", "signal", "terminal", "cursor", "monitor", "laptop", "keyboard", "database", "firewall", "modem", "uplink", "cloud", "upload", "download", "mouse", "circuit", "hardware", "software"],
+    "simulation": ["matrix", "oracle", "agent", "glitch", "rabbit", "mirror", "pill", "phone", "zion", "sentinel", "illusion", "chosen", "anomaly", "construct", "dream", "awaken", "freedom", "spoon", "prophet", "source", "exile", "rebel", "unplug", "reality", "operator"]
   },
   "cowboy-fengs": {
-    "space": ["rocket", "comet", "nebula", "orbit", "galaxy", "meteor", "alien", "lunar", "starship", "cosmic", "warp", "quasar"],
-    "grille": ["grill", "burger", "brisket", "taco", "nacho", "ribs", "chili", "fries", "skillet", "griddle", "pancake", "biscuit", "gravy", "bacon", "pickle", "sizzle"],
-    "bar": ["saloon", "bourbon", "cocktail", "soda", "shaker", "jukebox", "booth", "neon", "rodeo", "cowboy", "lasso", "spur", "stetson", "howdy", "cactus", "tonic"]
+    "space": ["rocket", "comet", "nebula", "orbit", "galaxy", "meteor", "alien", "lunar", "starship", "cosmic", "warp", "quasar", "astro", "planet", "saturn", "crater", "gravity", "martian", "moonbeam", "stardust", "asteroid", "launch", "beacon", "eclipse"],
+    "grille": ["grill", "burger", "brisket", "taco", "nacho", "ribs", "chili", "fries", "skillet", "griddle", "pancake", "biscuit", "gravy", "bacon", "pickle", "sizzle", "steak", "wings", "slider", "salsa", "queso", "coleslaw", "smoky", "barbecue", "malt", "sundae", "waffle"],
+    "bar": ["saloon", "bourbon", "cocktail", "soda", "shaker", "jukebox", "booth", "neon", "rodeo", "cowboy", "lasso", "spur", "stetson", "howdy", "cactus", "tonic", "cantina", "barstool", "pint", "lager", "highball", "cherry", "poker", "wrangler", "sheriff", "boots", "yeehaw"]
   },
   "aviary": {
-    "birds": ["robin", "sparrow", "finch", "wren", "owl", "hawk", "eagle", "falcon", "heron", "crane", "parrot", "toucan", "pelican", "puffin", "raven", "magpie", "swallow", "canary", "osprey", "kestrel", "pigeon", "dove", "egret", "condor", "cardinal", "oriole", "flamingo"],
-    "flight": ["feather", "wing", "plume", "beak", "talon", "nest", "perch", "glide", "soar", "flutter", "hover", "swoop", "migrate", "flock", "roost", "song", "chirp", "warble", "egg"]
+    "birds": ["robin", "sparrow", "finch", "wren", "owl", "hawk", "eagle", "falcon", "heron", "crane", "parrot", "toucan", "pelican", "puffin", "raven", "magpie", "swallow", "canary", "osprey", "kestrel", "pigeon", "dove", "egret", "condor", "cardinal", "oriole", "flamingo", "bluejay", "cuckoo", "lark", "thrush", "starling", "warbler", "ibis", "stork", "swan", "goose", "mallard", "quail", "tern", "penguin", "macaw", "peacock"],
+    "flight": ["feather", "wing", "plume", "beak", "talon", "nest", "perch", "glide", "soar", "flutter", "hover", "swoop", "migrate", "flock", "roost", "song", "chirp", "warble", "egg", "hatch", "chick", "tweet", "trill", "birdsong", "branch", "twig", "seed", "wingspan", "updraft", "birdbath", "aloft", "sky", "breeze", "dawn", "chorus"]
   }
 }
